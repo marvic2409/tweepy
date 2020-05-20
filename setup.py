@@ -2,6 +2,7 @@
 
 import re
 from setuptools import find_packages, setup
+from pip._internal.req import parse_requirements
 
 VERSION_FILE = "tweepy/__init__.py"
 with open(VERSION_FILE) as version_file:
